@@ -7,7 +7,13 @@
 
 A responsive web application for managing bus routes and seat reservations with real-time visualization.
 
-![Screenshot](screenshot.png) <!-- Add actual screenshot later -->
+![image](https://github.com/user-attachments/assets/928e466f-7c64-4f8d-bef8-c6811ed42e9f)
+![image](https://github.com/user-attachments/assets/223cbef9-5af0-4fb1-834a-f9a8337f0a59)
+![image](https://github.com/user-attachments/assets/5199124e-8628-41f4-8f07-2d95381bce0e)
+![image](https://github.com/user-attachments/assets/af42a5df-d550-46e4-96d9-c06c490bb281)
+![image](https://github.com/user-attachments/assets/d1275596-c16b-4c58-bede-8c5940ea90bd)
+![image](https://github.com/user-attachments/assets/1f3c6b36-1ad4-4a4b-81d7-db4c985e28d3)
+
 
 ## ✨ Features
 
