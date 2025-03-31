@@ -1,0 +1,121 @@
+/* Overall page styling */
+body {
+    background: url('download.png') no-repeat center center fixed;
+    background-size: cover;
+}
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245,245,245); /* light overlay */
+    z-index: -1;
+}
+
+
+  
+/* Bus card styling */
+.bus-card {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid container for arranging seats in a continuous manner */
+/* 8 seats per row, each seat is 60px wide, with a 5px gap */
+.bus-seat-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+/* Seat box styling */
+.seat {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: opacity 0.3s ease, color 0.3s ease;
+    white-space: normal;
+    /* Allows text to wrap if needed */
+    word-break: break-word;
+
+}
+
+/* Styling for available seats */
+.available {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Styling for occupied seats */
+.occupied {
+    background-color: #f44336;
+    color: white;
+    cursor: not-allowed;
+}
+
+/* Styling for the seat number (always centered) */
+.seat-number {
+    display: block;
+    line-height: 60px;
+    /* centers the number vertically */
+}
+
+/* Styling for the passenger name inside the seat box.
+   Allows long names to wrap inside the fixed 60x60 box. */
+.passenger-name {
+    display: block;
+    font-size: 0.75em;
+    /* slightly smaller font */
+    line-height: 1.2em;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+/* Button teal styling */
+.btn.teal {
+    background-color: #26a69a;
+}
+
+/* Toast styling */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+/* Tabs styling */
+.tabs .tab a {
+    color: #1976d2;
+}
+
+.tabs .tab a:hover {
+    color: #0d47a1;
+}
+
+.tabs .indicator {
+    background-color: #1976d2;
+}
+
+/* Input field spacing */
+.input-field {
+    margin-top: 1.5rem;
+}
