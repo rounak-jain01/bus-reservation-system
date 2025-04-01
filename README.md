@@ -75,4 +75,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Rounak Jain - [rounakjain049@gmail.com](mailto:rounakjain049@gmail.com)
 
 Project Link: [https://github.com/rounak-jain01/bus-reservation-system](https://github.com/rounak-jain01/bus-reservation-system)
-Host Link : 
+
+Host Link : https://rounak-jain01.github.io/bus-reservation-system/
